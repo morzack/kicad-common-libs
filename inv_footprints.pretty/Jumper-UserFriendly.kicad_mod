@@ -1,0 +1,77 @@
+(footprint "Jumper-UserFriendly"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.4958 0)
+		(layer "Dwgs.User")
+		(uuid "dd5bfc6b-a1b7-4b55-a051-7d1507529001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper-UserFriendly"
+		(at 0 -4.4196 0)
+		(layer "Dwgs.User")
+		(uuid "5f86309d-2bb6-4a1e-bf6e-0e3ab75e969b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db9d2ec0-dea4-493d-a346-6a276ee25970")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5a864f8-7cef-4743-b262-adf1a8acce78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5008894d-cca5-4348-a528-ad9b65ae2d7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "1" smd rect
+		(at 0 -1.4986)
+		(size 3 2.75)
+		(layers "F.Cu" "F.Mask")
+		(uuid "36c1325e-63fd-4c4d-860a-61eaf184c981")
+	)
+	(pad "2" smd rect
+		(at 0 1.4986)
+		(size 3 2.75)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f4f0563d-4a84-470c-96dc-2028739509cf")
+	)
+)

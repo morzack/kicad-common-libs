@@ -1,0 +1,219 @@
+(footprint "Reset_Pretty-Mask"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6 0)
+		(layer "Dwgs.User")
+		(uuid "594e8791-22ae-4a47-8c22-719ce9dd2409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Reset_Pretty-Mask"
+		(at 0 -6 0)
+		(layer "Dwgs.User")
+		(uuid "9b68b9f3-4fb0-4abd-bcbe-03ab8946b256")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66b8a5a4-583f-40fb-a9f0-46ec6cf609d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05855f37-ee35-41ed-8c56-9304366bb610")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "109fc527-f239-4e48-904b-390bc4d3d770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.5 1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e1a93a4-0a98-4389-9f2a-29e2cb516b34")
+	)
+	(fp_line
+		(start -2.5 3.75)
+		(end -2.5 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ed8a581-3e28-4d86-8e78-76dae2139ee2")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end 2.5 3.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6709fd7b-582b-41f4-ba14-1b3dcecce034")
+	)
+	(fp_line
+		(start 2.5 3.75)
+		(end -2.5 3.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c8a0c14-4866-4404-aff2-96624fa7e65c")
+	)
+	(fp_text user "GND"
+		(at 4.25 2.5 0)
+		(layer "F.SilkS")
+		(uuid "110fc40f-d945-492b-b6a3-38cb382873cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 4 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "2b70528e-d546-4120-9a4f-03d45f7e0edd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "RST"
+		(at -4.25 2.5 0)
+		(layer "F.SilkS")
+		(uuid "45997789-7296-4be2-ba0a-83fea7eceef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MOSI"
+		(at 4.25 0 0)
+		(layer "F.SilkS")
+		(uuid "8966fa3a-8741-4e4f-bf92-f4c9bbeb8b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SCK"
+		(at -4 0 0)
+		(layer "F.SilkS")
+		(uuid "c565a532-73ab-40aa-b705-ba6a5b78f764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MISO"
+		(at -4.25 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "c82a08ad-8075-41e2-91eb-1af091b77677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "96ac7a97-132d-464c-b39e-026df6827bda")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "40b5f0a2-01c2-4934-aa4e-6db9a5ed395f")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "0a39bfa7-2d83-4d3b-8296-6e2e27185490")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "69a27317-8cdd-4978-8dc3-48eeeb9305ee")
+	)
+	(pad "5" thru_hole circle
+		(at -1.27 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "aacd820f-d3ed-4ec0-8676-d6248aa52c7e")
+	)
+	(pad "6" thru_hole rect
+		(at 1.27 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "089f2721-9c1b-4b92-bab3-2b7b7b86a4de")
+	)
+)
